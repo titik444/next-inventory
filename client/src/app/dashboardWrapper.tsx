@@ -45,7 +45,7 @@ export default function DashboardWrapper({
 }) {
   return (
     <StoreProvider>
-      <DashboardLayout>{children}</DashboardLayout>;
+      <DashboardLayout>{children}</DashboardLayout>
     </StoreProvider>
   );
 }
