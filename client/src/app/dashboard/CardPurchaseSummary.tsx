@@ -27,6 +27,7 @@ export default function CardPurchaseSummary() {
             <h2 className="text-lg font-semibold mb-2 px-7 pt-5">
               Purchase Summary
             </h2>
+            <hr />
           </div>
 
           {/* BODY */}
