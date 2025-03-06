@@ -11,7 +11,7 @@ const columns: GridColDef[] = [
 ];
 
 export default function Users() {
-  const { data: users, isError, isLoading } = useGetUsersQuery();
+  const { data: users, isLoading, isError } = useGetUsersQuery();
 
   if (isLoading) {
     return <div className="py-4">Loading...</div>;
